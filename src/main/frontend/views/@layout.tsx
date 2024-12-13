@@ -3,7 +3,6 @@ import { createMenuItems, useViewConfig } from '@vaadin/hilla-file-router/runtim
 import { Suspense, useEffect } from 'react';
 import { Outlet, useLocation, useNavigate } from 'react-router-dom';
 import { Signal, signal, effect } from '@vaadin/hilla-react-signals';
-import './main.css';
 
 const vaadin = window.Vaadin as {
   documentTitleSignal: Signal<string>;
